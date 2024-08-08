@@ -1,0 +1,12 @@
+[default_session]
+startup_command = "nvim -c ':Telescope find_files'"
+
+[[session]]
+name = "recipiary-back"
+path = "~/dev/recipiary/go/"
+startup_script = "~/.config/sesh/recipiary-go.sh"
+
+[[session]]
+name = "recipiary-front"
+path = "~/dev/recipiary/nuxt/"
+startup_script = "~/.config/sesh/recipiary-nuxt.sh"
